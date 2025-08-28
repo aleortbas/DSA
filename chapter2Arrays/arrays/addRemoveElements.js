@@ -83,10 +83,3 @@ numbers.splice(3,0,4,5,6,7)
 
 console.log("splice to add: ", numbers);
 
-for (let i = 0;i <= numbers.length; i++) {
-    if (i === position){
-        numbers[i++] = 999;
-    }
-}
-
-//console.log("splice to add: ", numbers);
